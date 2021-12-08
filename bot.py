@@ -20,9 +20,9 @@ async def on_ready():
 #Welcoming
 @client.event()
 async def on_member_join():
-    server = client.get_guild('827023107557556264')
-    welcome_channel = client.get_channel('827030397358702652')
-    intros = client.get_channel('827030448660152340')
+    server = client.get_guild('XXXXXXXXXXXXXXXXXXX')
+    welcome_channel = client.get_channel('XXXXXXXXXXXXXXXXXXX')
+    intros = client.get_channel('XXXXXXXXXXXXXXXXXXX')
     await welcome_channel.send(f"Welcome to the SJSU '25 Discord, {user.mention}! Please go to {intros.mention} and introduce yourself in order to access the rest of the server!")
 
 #General Moderation
